@@ -15,6 +15,14 @@
 				<property name="y" value="5" />
 			</bean>
 		</property>
+
+		<property name="trianglePoints">
+			<list>
+				<ref bean="point1" />
+				<ref bean="point1" />
+				<ref bean="point1" />
+			</list>
+		</property>
 	</bean>
 
 	<!-- create bean separately if bean is used by other also -->
