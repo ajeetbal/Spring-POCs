@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<!-- autowire = byName(beanId,class field name should be same),constructor,byType(bean 
+		class and java class should be same applicable if only one member),default -->
+	<bean id="triangle" class="Triangle" autowire="byName">
+	</bean>
+
+	<bean id="pointA" class="Point">
+		<property name="x" value="0" />
+		<property name="y" value="0" />
+	</bean>
+	<bean id="pointB" class="Point">
+		<property name="x" value="0" />
+		<property name="y" value="10" />
+	</bean>
+	<bean id="pointC" class="Point">
+		<property name="x" value="10" />
+		<property name="y" value="0" />
+	</bean>
+</beans>
