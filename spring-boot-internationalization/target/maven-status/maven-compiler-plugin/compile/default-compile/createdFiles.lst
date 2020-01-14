@@ -1,0 +1,3 @@
+com/demo/SpringBootInternationalizationApplication.class
+com/demo/configuration/CustomLocaleResolver.class
+com/demo/controllers/MainController.class
